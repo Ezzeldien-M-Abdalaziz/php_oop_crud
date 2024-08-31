@@ -5,8 +5,8 @@ namespace classes;
 class Connection
 {
     private $host = "localhost";
-    private $user = "phpmyadmin";
-    private $pass = "Ezzeldien85620947";
+    private $user = "root";
+    private $pass = "";
     private $db = "Route_project";
     protected $conn;
     public function __construct(){
